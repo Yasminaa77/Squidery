@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OeclsJ4Hek+QBqVNHvqzt2bSKA+fHsly12VKFhfUccQXnjq0lLM1jAHUVIXK3Rt6VkwJSnnpCJyzb5Y2BYwV4Q==",
+  "dgSpecHash": "JiGafXh8HfIfzlLFOrs/KCx6auyyTlWDn8/yKpaSNul/MEZYubQbzkS8pbouDy7MO1wBiGR3FAN5NeiT2KE0jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\MyApp.csproj",
+  "projectFilePath": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sepeh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Sepeh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",

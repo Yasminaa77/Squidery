@@ -14,9 +14,12 @@ export function SquidList({
 }: SquidListProps) {
   return (
     <div className="flex flex-col w-60 items-center gap-8">
+     
+     
+     
       {squidArr.map((squid) => {
         return (
-          <div key={squid.id} className=" bg-teal-100 flex flex-col w-100 items-center gap-2 p-10 border-2 border-purple-500 rounded-md">
+          <div key={squid.id} className=" bg-teal-100 flex flex-col w-60 items-center gap-2 p-10 border-2 border-purple-500 rounded-md">
             <h2 className="font-bold">{squid.name}</h2>
             <p>{squid.age} years old</p>
 

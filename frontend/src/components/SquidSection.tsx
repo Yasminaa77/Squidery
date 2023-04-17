@@ -76,15 +76,22 @@ export default function SquidSection() {
   
     return (
       <div className="flex w-60 justify-center items-center flex-col gap-8">
-        <div className="flex gap-4">
-        <h1 className='text-center'>Squidery</h1>
-        {/* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Octopus.png" alt="Octopus" width="60" height="60" /> */}
+       <div className="flex justify-between w-full items-center ">
+          <h1 className="text-center">Squid</h1>
+          {form === false ?
+          <button className="text-black bg-transparent text-xl underline " onClick={() => dispatch({ type: "add" })}>
+            Add+
+          </button>
+          :
+          <button className="text-black bg-transparent text-xl underline " onClick={() => setForm(false)}>
+          Back
+        </button>
+}
         </div>
+
+
         {form === false ? (
           <>
-          <span>
-            <button className="text-white bg-transparent text-xl" onClick={() => dispatch({ type: "add" })}>Add +</button>
-            </span>
             <SquidList
               squidArr={squids}
               handleDelete={handleDelete}

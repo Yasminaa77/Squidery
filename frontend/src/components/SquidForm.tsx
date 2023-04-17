@@ -26,20 +26,22 @@ export function SquidForm({ handleAddUpdate, squid }: SquidFormProps) {
 
   return (
     <form className="flex flex-col gap-4 items-center" onSubmit={handleSubmit}>
-      <label className="text-white" htmlFor="nameInput">Squid Name:</label>
+      <label className="text-black" htmlFor="nameInput">Squid Name:</label>
       <input
         id="nameInput"
         type="text"
         name="name"
+        className="border"
         value={formData?.name}
         onChange={handleChange}
       />
 
-      <label className="text-white " htmlFor="colorInput">Squid Age:</label>
+      <label className="text-black " htmlFor="colorInput">Squid Age:</label>
       <input
         id="ageInput"
         type="text"
         name="age"
+        className="border"
         value={formData?.age}
         onChange={handleChange}
       />

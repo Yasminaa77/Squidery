@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\MyApp.csproj": {}
+    "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\MyApp.csproj": {
+    "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\MyApp.csproj",
+        "projectPath": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\Sepeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\MyApp\\obj\\",
+        "outputPath": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sepeh\\AppData\\Roaming\\NuGet\\NuGet.Config",

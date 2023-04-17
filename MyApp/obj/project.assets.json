@@ -1453,11 +1453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\myApp\\MyApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\myApp\\MyApp.csproj",
+      "projectPath": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\Sepeh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sepeh\\OneDrive\\Desktop\\SeaShark\\week3\\Feb27\\myApp\\obj\\",
+      "outputPath": "C:\\Users\\Sepeh\\OneDrive\\Documents\\GitHub\\Squids\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sepeh\\AppData\\Roaming\\NuGet\\NuGet.Config",

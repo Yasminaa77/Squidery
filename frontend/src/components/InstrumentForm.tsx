@@ -43,24 +43,27 @@ export function InstrumentForm({ handleAddUpdate, instrument }: InstrumentFormPr
         id="nameInput"
         type="text"
         name="name"
+        className="border"
         value={formData?.name ?? ""}
         onChange={handleChange}
       />
 
-      <label className="text-white " htmlFor="colorInput">Instrument type:</label>
+      <label className="text-black " htmlFor="colorInput">Instrument type:</label>
       <input
         id="typeInput"
         type="text"
         name="type"
+        className="border"
         value={formData?.type ?? ""}
         onChange={handleChange}
       />
 
-      <label className="text-white " htmlFor="colorInput">Instrument color:</label>
+      <label className="text-black " htmlFor="colorInput">Instrument color:</label>
       <input
         id="colorInput"
         type="text"
         name="color"
+        className="border"
         value={formData?.color ?? ""}
         onChange={handleChange}
       />

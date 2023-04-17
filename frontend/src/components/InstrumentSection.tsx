@@ -79,23 +79,25 @@ export default function InstrumentSection() {
   
     return (
       <div className="flex w-80 justify-center items-center flex-col gap-8 overflow-y-scroll">
-        <div className="flex gap-4">
-        <h1 className='text-center'>Instrument</h1>
-        {/* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Musical%20Notes.png" alt="Musical Notes" width="60" height="60" /> */}
+        <div className="flex justify-between w-full items-center ">
+          <h1 className="text-center">Instrument</h1>
+          {form === false ?
+          <button className="text-black bg-transparent text-xl underline " onClick={() => dispatch({ type: "add" })}>
+            Add+
+          </button>
+          :
+          <button className="text-black bg-transparent text-xl underline " onClick={() => setForm(false)}>
+          Back
+        </button>
+}
         </div>
-        
+    
         {form === false ? (
-          <>
-            <button className="text-white bg-transparent text-xl" onClick={() => dispatch({ type: "add" })}>Add +</button>
-            <InstrumentList
-              instrumentArr={instruments}
-              handleDelete={handleDelete}
-              handleEdit={handleEdit}
-            />
-          </>
+          <InstrumentList instrumentArr={instruments} handleDelete={handleDelete} handleEdit={handleEdit} />
         ) : (
           <>{state}</>
         )}
       </div>
     );
+    
 }
